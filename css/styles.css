@@ -1,0 +1,91 @@
+body{
+  background: #ECF0F1;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+label{
+  padding-left: 5px;
+}
+
+#answerHeader{
+  position: relative;
+  margin: 0;
+  padding: 15px 25px 15px;
+  background: #1abc9c;
+  color: #34495e;
+  border-radius: 6px;
+}
+
+#innerAnswerHeader{
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#scoreboard h2, #scoreboard h3, #scoreboard h1{
+  padding: 15px;
+}
+
+.todo{
+  margin: 0;
+  padding: 0;
+}
+
+.todo ul{
+  margin: 0;
+  padding: 0;
+  display: block;
+  list-style-type: none;
+  letter-spacing: 1.5px;
+}
+
+.todo li{
+  padding: 10px 10px 10px 30px;
+  margin-top: 2px;
+  background: #34495e;
+  border-radius: 6px;
+}
+
+.todo input, .todo label{
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 3;
+}
+
+#query button{
+  padding: 10px 10px 10px 10px;
+  background-color: #1abc9c;
+  margin-top: 2px;
+  line-height: 1.5;
+  border: 0;
+  width: 100%;
+  border-radius: 6px;
+  outline: none;
+}
+
+#query p{
+  margin: 10px 0 10px 0;
+  padding: 0 20px 0 20px;
+  letter-spacing: 1.5px;
+}
+
+/*#submit:focus, #submit:hover{
+  background-color: #48c9b0;
+}*/
+
+.row{
+  margin-top: 15px;
+}
+
+#query, #scoreboard{
+  padding: 0;
+  background: #2c3e50;
+  color: white;
+  display: block;
+  border-radius: 6px;
+}
+
+.nopadding {
+  padding-right: 0;
+}

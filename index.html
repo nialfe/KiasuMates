@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Study Lah!</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body onload="main()">
+    <div class="container-fluid">
+      <div class="row">
+        <!--div class="col-xs-6 col-xs-offset-1 nopadding" id="image">
+          <img src="pencil.jpg"/>
+        </div-->
+        <div class="col-md-4 col-md-offset-4" id="query">
+          <div class="row" id="answerHeader">
+            <h3 id="innerAnswerHeader">Question:</h3>
+            <h5 id="question"></h5>
+          </div>
+          <div class="todo" id="answers">
+            <ul>
+            <li>
+            <input type="radio" name="choice" value="1" id="q1a">
+              <label for="q1a" id="label1"></label>
+            <br/>
+            </li>
+            <li>
+            <input type="radio" name="choice" value="2" id="q1b">
+              <label for="q1b" id="label2"></label>
+            <br/>
+            </li>
+            <li>
+            <input type="radio" name="choice" value="3" id="q1c">
+              <label for="q1c" id="label3"></label>
+            <br/>
+            </li>
+            <li>
+            <input type="radio" name="choice" value="4" id="q1d">
+              <label for="q1d" id="label4"></label>
+            <br/>
+            </li>
+            </ul>
+          </div>
+          <button id="submit" type ="button" onclick="checkAnswer()">Submit</button>
+          <button type="button" name="nextQ" value="next" onclick="main()">Next Question</button>
+          <p id="explain" style="display: none">
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4" id="scoreboard" style="display: none">
+          <h2>Final Score:</h2>
+          <h1 id="score"></h1>
+          <h3 id="comment"></h3>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/makeQuestions.js"></script> 
+  </body>
+</html>
